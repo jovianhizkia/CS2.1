@@ -1,0 +1,157 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: rgb(220, 239, 255);
+}
+
+.logo a{
+    position: relative;
+    font-family: 'Imbue', serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    float: left;
+    left: 10%;
+}
+
+.menu{
+    position: relative;
+    float:right;
+    right: 10%;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.wrapper2{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.wrapper3{
+    width: 100%;
+    position: relative;
+    background-color: rgb(220, 239, 255);
+}
+
+a.signbutton{
+    background: #72aedf;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.column{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-list{
+    width: 20%;
+    margin: 0 auto;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer-list h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-list p{
+    text-align: justify;
+}
+
+.productitle{
+    font-size: 90px;
+    letter-spacing: -5px;
+    margin: 0 auto;
+    font-family: 'Imbue', serif;
+    padding: 0px 10px 0px 0px;
+}
+
+.product-list{
+    width: 99.80%;
+    position: relative;
+    display: flex;
+    padding: 0px 0px 30px 0px;
+    flex-wrap: wrap;
+}
+
+.productimgs{
+    width: 200px;
+    height: 200px;
+    padding: 0px 10px 0px 10px;
+}
+
+.product-desc{
+    width: 20%;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.promoprod{
+    color: #00970d;
+}
